@@ -10,11 +10,13 @@
         "moduleResolution": "node",
         "sourceMap": true,
         "outDir": "dist",
-        "baseUrl": ".",
+        "baseUrl": "./",
         "strict": true,
         "paths": {
             "@shared/*": ["src/shared/*"],
             "@infra": ["src/infra/index"],
+            "@domain/*": ["src/domain/*"],
+            "@services/*": ["src/application/services/*"],
         }
     },
     "include": [
