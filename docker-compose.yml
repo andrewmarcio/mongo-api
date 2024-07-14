@@ -14,6 +14,8 @@ services:
     volumes:
       - .:/home/api
       - ./node_modules:/home/api/node_modules
+    environment:
+      MONGODB_URL_CONNECTION: mongodb://root:mongoapitest@mongo:27017/
     networks:
       - mongo-db-network
 

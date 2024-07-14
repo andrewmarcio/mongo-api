@@ -14,7 +14,7 @@
         "strict": true,
         "paths": {
             "@shared/*": ["src/shared/*"],
-            "@environments/*": ["src/infra/environment/*"],
+            "@infra": ["src/infra/index"],
         }
     },
     "include": [

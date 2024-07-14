@@ -1,5 +1,5 @@
 import { Server } from 'express'
-import { Environments } from '@environments/environment'
+import { Environments } from '@infra'
 
 function createExpressServer(app: Server) {
     app.listen(Number(Environments.getPort()), () => {
