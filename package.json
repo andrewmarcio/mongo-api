@@ -6,8 +6,10 @@
   "author": "Andrew Márcio <andrewmarcio21@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/body-parser": "^1.19.5",
     "@types/express": "types/express",
     "@types/node": "^20.14.10",
+    "@types/uuid": "^10.0.0",
     "@typescript-eslint/eslint-plugin": "^7.16.0",
     "@typescript-eslint/parser": "^7.16.0",
     "eslint": "^9.7.0",
@@ -19,8 +21,10 @@
     "typescript": "^5.5.3"
   },
   "dependencies": {
+    "body-parser": "^1.20.2",
     "express": "^4.19.2",
-    "mongoose": "^8.5.1"
+    "mongoose": "^8.5.1",
+    "uuid": "^10.0.0"
   },
   "scripts": {
     "dev": "ts-node-dev -r tsconfig-paths/register --inspect --transpile-only --ignore-watch node_modules --env-file=.env.development index.ts"
